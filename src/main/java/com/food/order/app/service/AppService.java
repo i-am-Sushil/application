@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 public class AppService {
 
 	public static String getCart(String email, String password) {
-		String url = "http://localhost:8084/cart?email=" + email;
+		String url = "http://13.233.214.243:8084/cart?email=" + email;
 		RestTemplate restTemplate = new RestTemplate();
 		//final String cart = restTemplate.getForObject(url, String.class);
 
